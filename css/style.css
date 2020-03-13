@@ -3,7 +3,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Heebo', sans-serif;
 }
 button:focus {
     box-shadow: none;
@@ -50,6 +50,9 @@ header {
 .navbar {
     background: #1e1e1e;
     height: 72px;
+}
+ul.navbar-nav {
+    margin-top: -5px;
 }
 .container-fluid {
     width: 90%;
@@ -131,7 +134,8 @@ header .carousel-control-next {
 .section-about,
 .section-services,
 .section-clients,
-.section-contact {
+.section-contact,
+.pd-6 {
     padding: 6rem 0;
 }
 .section-about .about {
@@ -294,4 +298,64 @@ footer .p-2 {
 }
 .pull-right {
     float: right;
+}
+
+/* about */
+.meter {
+    color: #4F4F4F;
+}
+.section-services ul {
+    margin-top: 3rem;
+}
+.section-services ul li {
+    width: 90%;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+    color: #000;
+} 
+.line {
+    position: relative;
+    top: -30px;
+    z-index: -1;
+}
+.personnel-wrapper.container-fluid {
+    width: 80%;
+}
+.personnel-wrapper p {
+    color: #000;
+}
+.personnel-image {
+    width: 190px;
+    height: 180px;
+    position: absolute;
+    left: -4px;
+    top: -10px;
+}
+.managing-director {
+    background: url(./../images/Bello-Oladipo.jpg);
+    background-size: cover;
+}
+.operations {
+    background: url(./../images/Olusesan-Okunade.jpeg);
+    background-size: cover;
+}
+.human-resources {
+    background: url(./../images/Bolanle-Bello.jpg);
+    background-size: cover;
+}
+.technical-manager {
+    background: url(./../images/Ifeanyi-Okoye.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.ict-manager {
+    background: url(./../images/Oladokun-Babatunde.jpg);
+    background-size: cover;
+}
+.mb-15 {
+    margin-bottom: 1.5rem;
+}
+.mt-40 {
+    margin-top: 4rem;
 }
