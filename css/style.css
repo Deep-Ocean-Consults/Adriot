@@ -341,8 +341,11 @@ footer .p-2 {
     background-size: cover;
 }
 .human-resources {
-    background: url(./../images/Bolanle-Bello.jpg);
-    background-size: cover;
+    /*background: url(./../images/Bolanle-Bello.jpg);
+    background-size: cover;*/
+    transform: rotate(270deg) scaleX(-1);
+    top: -20px;
+    height: 190px;
 }
 .technical-manager {
     background: url(./../images/Ifeanyi-Okoye.jpg);
