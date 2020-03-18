@@ -1,3 +1,13 @@
+@media screen and (max-width: 450px) {
+	.navbar .btn.btn-info.btn-portal {
+		width: 50%!important;
+	}
+}
+@media screen and (max-width: 600px) {
+	.section-404 h4 {
+    	width: 90%!important;
+    }
+}
 @media screen and (max-width: 768px) {
 	header {
 		box-shadow: none;
@@ -12,9 +22,19 @@
 	.relative {
 		margin-top: 3rem;
 	}
-	header .carousel {
-		padding-top: 15rem;
+	.header-bulb {
+		right: 0;
 	}
+	.contact-wrapper .bulb {
+		display: none;
+	}
+	.section-404 h4 {
+    	width: 60%;
+    }
+    .project-details h4,
+    .project-details p {
+    	width: auto;
+    }
 }
 @media screen and (max-width: 991px) {
 	.navbar {
@@ -24,6 +44,7 @@
 		width: 30%;
 		margin-top: 2rem;
 		margin-bottom: 2rem;
+		margin-left: 0;
 	}
 	.navbar-expand-lg .navbar-nav .nav-link {
 		padding-left: 0;
@@ -46,5 +67,8 @@
 @media screen and (min-width: 770px) and (max-width: 991px) {
 	.news-card {
     	width: 85%;
+	}
+	.contact-info {
+	    margin-left: 0;
 	}
 }
