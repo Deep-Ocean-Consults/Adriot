@@ -316,15 +316,20 @@ footer .p-2 {
 .meter {
     color: #4F4F4F;
 }
-.section-services ul {
+.member-wrapper {
     margin-top: 3rem;
+    margin-left: 1rem;
 }
-.section-services ul li {
-    width: 90%;
-    font-weight: bold;
-    font-size: 1.6rem;
+.section-services .member-wrapper p {
+    font-weight: 300;
+    font-size: 1.4rem;
     line-height: 2.7rem;
     color: #000;
+    margin-top: 0;
+    width: auto;
+}
+.section-services .member-wrapper p:nth-child(2) {
+    margin-top: 1rem;
 } 
 .line {
     position: relative;
@@ -455,7 +460,7 @@ textarea.form-control {
 .section-projects {
     padding: 8rem 0 1rem 0;
 }
-.section-projects img {
+.bulb-two {
     position: relative;
     left: -12.5rem;
 }
@@ -490,4 +495,10 @@ textarea.form-control {
 p.fairly-bold {
     font-weight: 300;
     margin-bottom: 1.5rem;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    right: 21.5rem;
+    left: auto;
 }

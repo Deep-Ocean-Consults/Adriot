@@ -24,6 +24,7 @@
 	}
 	.header-bulb {
 		right: 0;
+    	top: -11.5rem;
 	}
 	.contact-wrapper .bulb {
 		display: none;
@@ -35,6 +36,9 @@
     .project-details p {
     	width: auto;
     }
+    .contact-info {
+	    margin-left: 0;
+	}
 }
 @media screen and (max-width: 991px) {
 	.navbar {
