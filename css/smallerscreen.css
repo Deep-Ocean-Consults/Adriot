@@ -20,7 +20,7 @@
 		padding: 3rem;
 	}
 	.relative {
-		margin-top: 3rem;
+		margin-top: 5rem;
 	}
 	.header-bulb {
 		right: 0;
@@ -56,6 +56,22 @@
 	.navbar-brand {
 	    margin-left: -13px;
 	}
+	.member-line,
+    .member-image {
+    	width: 300px;
+    }
+    .member-image {
+    	background-position: center; 
+    }
+    .modal-bulb {
+    	right: -20rem;
+    }
+    .humanresources {
+    	height: 300px;
+	    width: 300px;
+	    position: absolute;
+	    top: -0.2rem;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1100px) {

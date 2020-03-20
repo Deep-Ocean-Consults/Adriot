@@ -10,27 +10,38 @@ button:focus {
     outline: none!important;
 }
 p,
-.form-control {
+.form-control,
+.modal-header .close {
     font-size: 1.6rem;
     line-height: 2.3rem;
-    color: #333333;
+}
+p, 
+h3, 
+h2,
+h4,
+.form-control,
+.section-about .about p {
+    color: #333;
 }
 h1 {
     font-weight: 500;
     font-size: 4.8rem;
     line-height: 70px;
 }
+h2 {
+    font-weight: normal;
+    font-size: 3.6rem;
+    line-height: 5.3rem;
+}
 h3 {
     font-weight: 500;
     font-size: 3.2rem;
     line-height: 4.7rem;
-    color: #333;
 }
 h4,
 .section-about .about p {
     font-size: 2.4rem;
     line-height: 3.5rem;
-    color: #333333;
 }
 .bold {
     font-weight: bold;
@@ -320,9 +331,12 @@ footer .p-2 {
     margin-top: 3rem;
     margin-left: 1rem;
 }
-.section-services .member-wrapper p {
+.modal p,
+.section-services .member-wrapper p  {
     font-weight: 300;
     font-size: 1.4rem;
+}
+.section-services .member-wrapper p {
     line-height: 2.7rem;
     color: #000;
     margin-top: 0;
@@ -379,6 +393,110 @@ footer .p-2 {
 .mt-40 {
     margin-top: 4rem;
 }
+.modal {
+    padding-right: 0!important;
+}
+.personnel-wrapper button {
+    background: transparent;
+    border: none;
+    margin-left: -5px;
+}
+.modal-dialog {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+.modal-content {
+    padding: 2rem 3rem 6rem 6rem;
+    border: none;
+}
+.modal-header .close {
+    color: #1e1e1e;
+    opacity: 1;
+}
+.modal-header .close:hover {
+    opacity: 0.75;
+}
+.modal-header {
+    border-bottom: none;
+    margin-right: 15px;
+}
+.modal-body {
+    padding-top: 8rem;
+}
+.modal p {
+    width: 85%;
+    line-height: 2.1rem;
+}
+.modal p.normal {
+    font-weight: normal;
+}
+.modal .member-wrapper {
+    margin-top: 0;
+}
+.modal .container-fluid {
+    width: 100%;
+}
+/*.modal .member-wrapper p {
+    width: 60%;
+}*/
+.mt--10 {
+    margin-top: -1rem;
+}
+.member-line {
+    border: 2.5px solid #F2994A;
+    border-radius: 6px;
+    width: 441px;
+    height: 404px;
+    z-index: 2;
+}
+.member-image {
+    height: 416px;
+    width: 441px;
+    background: url(./../images/Bello-Oladipo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -3rem;
+    left: -1.5rem;
+    border-radius: 6px;
+    z-index: 2;
+}
+.member-image.operation {
+    background: url(./../images/Olusesan-Okunade.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+.humanresources {
+    transform: rotate(270deg) scaleX(-1);
+    height: 441px;
+    width: 441px;
+    position: absolute;
+    top: -5.2rem;
+    left: -1.5rem;
+    border-radius: 6px;
+    z-index: 2;
+}
+.member-image.technical {
+    background: url(./../images/Ifeanyi-Okoye.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.member-image.ict {
+    background: url(./../images/Oladokun-Babatunde.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+.modal-bulb {
+    position: relative;
+    right: -34rem;
+    bottom: 10rem;
+    z-index: 1;
+}
+
 
 /* contact page */
 .contact-wrapper {
@@ -414,7 +532,7 @@ textarea.form-control {
 .contact-wrapper .btn.btn-info.btn-services {
     padding: 1rem 2.5rem;
 }
-.contact-wrapper h2 {
+.contact-wrapper h3 {
     margin: 2rem 0;
 }
 .contact-wrapper form {
