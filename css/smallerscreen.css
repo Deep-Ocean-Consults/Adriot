@@ -33,7 +33,8 @@
     	width: 60%;
     }
     .project-details h4,
-    .project-details p {
+	.project-details p,
+	.services-wrapper h3 {
     	width: auto;
     }
     .contact-info {
@@ -90,5 +91,8 @@
 	}
 	.contact-info {
 	    margin-left: 0;
+	}
+	.services-wrapper h3 {
+		width: 70%;
 	}
 }

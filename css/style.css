@@ -11,7 +11,8 @@ button:focus {
 }
 p,
 .form-control,
-.modal-header .close {
+.modal-header .close,
+.accordion li {
     font-size: 1.6rem;
     line-height: 2.3rem;
 }
@@ -20,7 +21,8 @@ h3,
 h2,
 h4,
 .form-control,
-.section-about .about p {
+.section-about .about p,
+.accordion li {
     color: #333;
 }
 h1 {
@@ -315,7 +317,10 @@ footer p a {
     line-height: 2.1rem;
     color: #E8E8E8;
 }
-
+footer p a:hover,
+.card-header a.card-title:hover {
+    color: #fff;
+}
 footer .p-2 {
     padding-left: 0!important;
 }
@@ -619,4 +624,91 @@ p.fairly-bold {
     top: 0;
     right: 21.5rem;
     left: auto;
+}
+
+/* services page */
+.services-wrapper {
+    padding: 15rem 0;
+}
+.services-wrapper h3 {
+    width: 50%;
+    margin: auto;
+    color: #fff;
+}
+#services-container {
+    padding: 6rem 0;
+}
+.nav.nav-tabs {
+    border-bottom: 0;
+}
+.nav-tabs .nav-item h3,
+.nav-tabs .nav-item p {
+    color: #4F4F4F;
+}
+.nav-tabs .nav-item h3 {
+    font-weight: bold;
+}
+.nav-tabs .nav-item i {
+    font-size: 2rem;
+    float: left;
+    margin-right: 1rem;
+    margin-top: 13px;
+    color: #4f4f4f;
+}
+.nav-tabs .nav-item.show .nav-link, 
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:focus, 
+.nav-tabs .nav-link:hover {
+    border: 0;
+    color: #F87E03;
+}
+.nav-tabs .nav-link.active h3,
+.nav-tabs .nav-link:hover h3,
+.nav-tabs .nav-item:hover i,
+.nav-tabs .nav-link.active i {
+    color: #F87E03;
+}
+.accordion {
+    margin-top: 4rem;
+}
+.accordion .card-header:after,
+.accordion .card-header.collapsed:after,
+.card-header a.card-title {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    color: #fff;
+    padding-top: 6px;
+}
+
+.accordion .card-header:after,
+.accordion .card-header.collapsed:after {
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 900;  
+    float: right; 
+}
+.accordion .card-header:after {
+    content: "\f068";
+}
+.accordion .card-header.collapsed:after {
+    content: "\f067"; 
+}
+.card {
+    margin-bottom: 1rem;
+    border: 0;
+}
+.card-header {
+    background: #F87E03;
+    border-bottom: 0;
+    cursor: pointer;
+}
+.card-header:first-child,
+.accordion>.card:not(:first-of-type) .card-header:first-child {
+    border-radius: 5px;
+}
+.card-header a.card-title {
+    font-weight: 500;
+    display: inline-block;
+}
+.card-body {
+    padding-top: 2rem;
 }
