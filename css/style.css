@@ -41,7 +41,8 @@ h3 {
     line-height: 4.7rem;
 }
 h4,
-.section-about .about p {
+.section-about .about p,
+.vision-wrapper p {
     font-size: 2.4rem;
     line-height: 3.5rem;
 }
@@ -648,7 +649,7 @@ p.fairly-bold {
 .nav-tabs .nav-item h3 {
     font-weight: bold;
 }
-li.nav-item .nav-link.active:before { 
+.nav-tabs li.nav-item .nav-link.active:before { 
     content: "\f0eb";
     font-family: 'Font Awesome 5 Pro';
     font-style: normal;
