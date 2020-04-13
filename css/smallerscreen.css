@@ -40,6 +40,9 @@
     .contact-info {
 	    margin-left: 0;
 	}
+	#bulb-image {
+		display: none;
+	}
 }
 @media screen and (max-width: 991px) {
 	.navbar {
